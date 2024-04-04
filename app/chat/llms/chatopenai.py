@@ -1,4 +1,7 @@
 from langchain.chat_models import ChatOpenAI
 
-def build_llm(chat_args):
-    return ChatOpenAI()
+def build_llm(chat_args, model_name):
+
+    return ChatOpenAI(
+        model_name=model_name
+    )
