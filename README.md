@@ -57,7 +57,7 @@ Then:
 inv dev
 ```
 
-### To run the worker
+### To run the worker - NOT NEEDED/IMPLEMENTED
 
 Open a new terminal window and create a new virtual environment:
 
@@ -71,7 +71,7 @@ Then:
 inv devworker
 ```
 
-### To run Redis
+### To run Redis - NOT NEEDED/IMPLEMENTED
 
 ```
 redis-server
